@@ -11,14 +11,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var counterLabel: UILabel!
     
+    @IBOutlet weak var historyTextView: UITextView!
+    
+    @IBOutlet weak var decrementButton: UIButton!
+    
     @IBOutlet weak var incrementButton: UIButton!
     
+    @IBOutlet weak var resetButton: UIButton!
+    
     private var counter: Int = 0
-    
-    @IBAction func incrementButtonPressed(_ sender: Any) {
-        counter += 1
-        counterLabel.text = "Значение счетчика: \(counter)"
-    }
-    
 }
 
